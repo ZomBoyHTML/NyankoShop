@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyanko</title>
+    <link rel="shortcut icon" href="img/desing.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <link rel="stylesheet" href="css/estilo.css">
+                <ul class="menu" id="menu">
+                   <!--<li><a class="menu" href="https://allmylinks.com/aomesh">Enlaces</a></li>-->
+                </ul>
+            </div>
+        </nav>
+        <section class="textos-header">
+            <h1>NyankoShop</h1>
+            <h2>Bienvenid@ a mi tienda</h2>
+        </section>
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C271.16,135.70 349.20,-49.98 530.19,97.22 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header>
+
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestra informacion</h2>
+            <div class="contenedor-sobre-nosotros">
+                <iframe class="imagen-about-us" width="520" height="315" src="https://www.youtube.com/embed/9FvvbVI5rYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="contenido-textos">
+                    <h3><span>></span>:</h3>
+                    <p>
+                        Personaliza tus prendas favoritas, como jeans, chamarras y tops, dándoles un toque único según tus ideas. Haz que cada prenda sea exclusiva y refleje tu estilo personal.
+                    </p>
+                    <h3><span>></span>:</h3>
+                    <p>Producto disponible en stock y opción de pedidos con entrega en 15 días. Para consultas, contacta por DM usando el boton de 'Contáctame' que se encuentra bajo el 'Catálogo'. Envíos disponibles.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafiolio">
+            <div class="contenedor">
+                <h2 class="titulo">Catálogo</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port" onclick="openModal('img1', 'Texto de la polera 1')">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <!-- Repitir estructura para las demás imágenes -->
+                    <div class="imagen-port" onclick="openModal('img2', 'Texto de la polera 2')">
+                        <img src="img/2.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img3', 'Texto de la polera 3')">
+                        <img src="img/3.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img4', 'Texto de la polera 4')">
+                        <img src="img/4.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img5', 'Texto de la polera 5')">
+                        <img src="img/5.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img6', 'Texto de la polera 6')">
+                        <img src="img/6.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img7', 'Texto de la polera 7')">
+                        <img src="img/7.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img8', 'Texto de la polera 8')">
+                        <img src="img/8.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img9', 'Texto de la polera 9')">
+                        <img src="img/9.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img10', 'Texto de la polera 10')">
+                        <img src="img/10.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img11', 'Texto de la polera 11')">
+                        <img src="img/11.png" alt="">
+                    </div>
+                    <div class="imagen-port" onclick="openModal('img12', 'Texto de la polera 12')">
+                        <img src="img/12.png" alt="">
+                    </div>
+                    <!-- ... -->
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Contáctame</h2>
+                <div class="servicio-cont">
+                    <div class="tarjeta-contacto">
+                        <h1>Para contactar al vendedor, haz clic en el botón DM.</h1>
+                        <p></p>
+                        <a href="https://www.instagram.com/direct/t/17849730593929124" target="_blank">
+                            <button class="dm-button">DM</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phono</h4>
+                <p>*** *** ***</p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <a class="button-2" href="https://www.instagram.com/nyankonoyume/" target="_blank">nyankonoyume</a>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicacion</h4>
+                <a class="button-2" href="https://maps.app.goo.gl/kMF7Cv27w9MX7Com6" target="_blank">Ciudad de Mexico</a>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; ZomBoyHTML | Aome♥</h2>
+    </footer>
+</body>
+
+</html>
